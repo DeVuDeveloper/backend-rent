@@ -59,3 +59,5 @@ gem 'devise'
 gem 'devise-jwt'
 
 gem 'fast_jsonapi'
+
+gem 'jsonapi-serializer', '~> 2.2'

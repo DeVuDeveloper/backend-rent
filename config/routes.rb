@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   mount Rswag::Ui::Engine => '/'
   mount Rswag::Api::Engine => '/api-docs'
 
-  get '/current_user', to: 'current_user#index'
+  resources :current_user, only: [:index, :update]
   
   devise_for :users, path: '', path_names: {
     sign_in: 'login',
