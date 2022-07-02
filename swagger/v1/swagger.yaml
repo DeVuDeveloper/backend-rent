@@ -251,9 +251,7 @@ paths:
         '401':
           description: authentication failed
 servers:
-- url: https://{defaultHost}
+- url: http://{defaultHost}
   variables:
     defaultHost:
-      default: Rails.application.routes.default_url_options = {
-  host: 'backend-dejan-rentacar.herokuapp.com'
-}
+      default: localhost:3001
