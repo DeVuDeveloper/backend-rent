@@ -6,6 +6,9 @@ require 'active_support/core_ext/integer/time'
 # test suite. You never need to work with it otherwise. Remember that
 # your test database is "scratch space" for the test suite and is wiped
 # and recreated between test runs. Don't rely on the data there!
+Rails.application.routes.default_url_options = {
+  host: 'https://backend-dejan-rentacar.herokuapp.com'
+}
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
@@ -37,6 +40,8 @@ Rails.application.configure do
 
   # Store uploaded files on the local file system in a temporary directory.
   config.active_storage.service = :test
+
+  config.action_mailer.default_url_options = { host: 'https://backend-dejan-rentacar.herokuapp.com' }
 
   config.action_mailer.perform_caching = false
 

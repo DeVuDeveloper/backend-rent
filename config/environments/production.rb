@@ -2,6 +2,10 @@
 
 require 'active_support/core_ext/integer/time'
 
+Rails.application.routes.default_url_options = {
+  host: 'https://backend-dejan-rentacar.herokuapp.com'
+}
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -34,6 +38,7 @@ Rails.application.configure do
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
+  config.action_mailer.default_url_options = { host: 'https://backend-dejan-rentacar.herokuapp.com' }
 
   # Mount Action Cable outside main process or domain.
   # config.action_cable.mount_path = nil

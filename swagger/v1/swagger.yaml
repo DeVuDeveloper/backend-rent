@@ -254,4 +254,6 @@ servers:
 - url: https://{defaultHost}
   variables:
     defaultHost:
-      default: localhost:3001
+      default: Rails.application.routes.default_url_options = {
+  host: 'backend-dejan-rentacar.herokuapp.com'
+}
