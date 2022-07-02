@@ -3,7 +3,7 @@
 <div id="top"></div>
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://github.com/VuDej/final-capstone-back-end">
+  <a href="https://github.com/VuDej/backend-rent">
     <img src="./app/assets/images/../RentACar.gif" alt="Logo" width="200" height="150">
   </a>
 
@@ -14,16 +14,16 @@
     <br />
 
 ## Frontend Repository Link
-<a href="https://github.com/Gegardus/book-a-car-frontend">Book A Car Frontend</a>
+<a href="https://github.com/VuDej/front-end-rent-a-car">Book A Car Frontend</a>
 
-  <a href="https://github.com/VuDej/final-capstone-back-end#readme"><strong>Explore the docs »</strong></a>
+  <a href="https://github.com/VuDej/backend-rent#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://final-capstone-back.herokuapp.com/index.html">View Demo</a>
+    <a href="https://backend-dejan-rentacar.herokuapp.com/index.html">View Demo</a>
     ·
-    <a href="https://github.com/VuDej/final-capstone-back-end/issues">Report Bug</a>
+    <a href="https://github.com/VuDej/backend-rent/issues">Report Bug</a>
     ·
-    <a href="https://github.com/VuDej/final-capstone-back-end/issues">Request Feature</a>
+    <a href="https://github.com/VuDej/backend-rent/issues">Request Feature</a>
   </p>
 </div>
 
@@ -104,7 +104,7 @@ You will be needing:
 ### Clone this repository
 
 ```bash
-git clone https://github.com/VuDej/final-capstone-back-end.git
+git clone https://github.com/VuDej/backend-rent.git
 ```
 ### Move into the cloned directory with
 
@@ -237,7 +237,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 - Push to the Branch (git push origin feature/AmazingFeature)
 - Open a Pull Request
 
-Feel free to check the [issues page](https://github.com/VuDej/final-capstone-back-end/issues).
+Feel free to check the [issues page](https://github.com/VuDej/backend-rent/issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
