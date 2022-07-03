@@ -16,6 +16,6 @@ class CurrentUserController < ApplicationController
   private
 
   def user_update_params
-    params.require(:user).permit(:image,:image_url)
+    params.require(:user).permit(:image, :image_url)
   end
 end

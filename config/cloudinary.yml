@@ -1,0 +1,18 @@
+development:
+  cloud_name: jodlo
+  api_key: '445562822693376'
+  api_secret: NsqSzk0aYt-jM6wg5p-YPxC6Ipo
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: jodlo
+  api_key: '445562822693376'
+  api_secret: NsqSzk0aYt-jM6wg5p-YPxC6Ipo
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: jodlo
+  api_key: '445562822693376'
+  api_secret: NsqSzk0aYt-jM6wg5p-YPxC6Ipo
+  enhance_image_tag: true
+  static_file_support: false
