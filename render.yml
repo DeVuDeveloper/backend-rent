@@ -1,0 +1,18 @@
+databases:
+  - name: back_end
+    databaseName: back_end
+    user: back_end
+
+services:
+  - type: web
+    name: back_end
+    env: ruby
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "bundle exec puma -C config/puma.rb"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: back_end
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
